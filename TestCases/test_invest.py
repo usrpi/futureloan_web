@@ -70,7 +70,7 @@ class TestInvest(unittest.TestCase):
         # 4.点击查看并激活按钮
         self.bp.click_activeButton_success_popup()
         # 获取个人中心可用余额
-        num2 = self.up.user_money()
+        num2 = self.up.get_user_money()
         # 获取投资项目最新一条交易记录的本金
         # num3 =self.up.get_tz_list_money()
         # print(num3)
